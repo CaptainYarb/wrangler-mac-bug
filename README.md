@@ -15,4 +15,4 @@ This run took 5 minutes to serve a basic 24MB image! The browser retried this co
 
 In most cases the browser gives up and sends a content mismatch error:
 
-![Error results screenshot](/screenshots/retries.png)
+![Error results screenshot](/screenshots/failure.png)
