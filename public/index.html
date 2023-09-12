@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Small Payload</title>
+</head>
+<body>
+	<div style="margin: 2rem auto 0; padding: 2rem;">
+		<h1>Payload Tests</h1>
+		<p>These 2 images serve as tests to recreate the bug. The large image will not load on an ARM based Mac running <code>npm run dev</code>, but will when remomte <code>npm run dev:remote</code></p>
+
+		<div style="display: flex; gap: 2rem;">
+			<div style="text-align: center; display: flex; flex-direction: column; gap: 0.25rem;">
+				<strong style="font-size: 1.6rem;">Small Test</strong>
+				<img src="/small.jpg" alt="Large Image Test" width="640" height="551">
+				<p>76.9KB</p>
+			</div>
+			<div style="text-align: center; display: flex; flex-direction: column; gap: 0.25rem;">
+				<strong style="font-size: 1.6rem;">Large Test</strong>
+				<img src="/large.png" alt="Large Image Test" width="640" height="551">
+				<p>24.3MB <span style="color: #666">(over max chunk size)</span></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

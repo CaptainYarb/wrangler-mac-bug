@@ -1,0 +1,15 @@
+name = "wrangler-mac-bug"
+#account_id = "xxx" # update to use `npm run dev:remote`
+workers_dev = true
+compatibility_date = "2023-06-29"
+main = "./src/worker.ts"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = []
+
+[site]
+bucket = "./public"
+
+[define]
+"process.env.NODE_ENV"="'development'"
+"process.env.SENTRY_DSN"="'false'"
