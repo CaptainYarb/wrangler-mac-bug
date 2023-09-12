@@ -16,3 +16,7 @@ This run took 5 minutes to serve a basic 24MB image! The browser retried this co
 In most cases the browser gives up and sends a content mismatch error:
 
 ![screenshots/retries.png](Loaded Result)
+
+When on Wrangler v2.x this bug is not present:
+
+![screenshots/wrangler-v2-success.png](Successful result on wrangler v2.x)
