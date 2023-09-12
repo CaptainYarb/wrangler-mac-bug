@@ -7,12 +7,12 @@ This test will only fail on Mac ARM based processors. It has been replicated on 
 
 Run `npm run dev` on the Mac. Open the browser to see a page like this:
 
-![/screenshots/initial.png](Initial Progress)
+[[/screenshots/initial.png](Initial Progress)]
 
 This run took 5 minutes to serve a basic 24MB image! The browser retried this content to eventually serve the full amount.
 
-![/screenshots/retries.png](Loaded Result)
+[[/screenshots/retries.png](Loaded Result)]
 
 In most cases the browser gives up and sends a content mismatch error:
 
-![/screenshots/retries.png](Loaded Result)
+[[/screenshots/retries.png](Loaded Result)]
